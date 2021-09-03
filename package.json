@@ -1,0 +1,12 @@
+{
+  "name": "pdfs2merge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "pdf-lib": "^1.16.0"
+  },
+  "scripts": {
+    "merge": "node src"
+  }
+}
