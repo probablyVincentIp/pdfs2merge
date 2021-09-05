@@ -1,25 +1,14 @@
 {
   "compilerOptions": {
-    "allowJs": true,
-    "allowSyntheticDefaultImports": true,
-    "alwaysStrict": true,
-    "forceConsistentCasingInFileNames": true,
-    "importHelpers": true,
-    "lib": ["esnext"],
+    "target": "es2016",
     "module": "commonjs",
-    "moduleResolution": "node",
-    "noFallthroughCasesInSwitch": true,
-    "noImplicitAny": false,
-    "noImplicitReturns": true,
-    "noImplicitThis": false,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
+    "lib": ["es5", "es6", "esnext"],
     "outDir": ".build",
-    "preserveConstEnums": true,
-    "rootDir": "./",
-    "sourceMap": true,
-    "strictNullChecks": true,
-    "target": "es5"
-  },
-  "include": ["src/**/*", "__tests__/**/*"]
+    "rootDir": "./src",
+    "strict": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  }
 }
